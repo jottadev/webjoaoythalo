@@ -9,6 +9,7 @@
 }
 
 body {
+    overflow-x: hidden;
     background: #171717;
 }
 
@@ -302,11 +303,24 @@ footer {
     color: #171717;
 }
 
+@media (max-width: 750px) {
+    
+    #intro {
+        align-content: center;
+        gap: 5rem;
+    }
 
-@media (max-width: 414px) {
+    .img-contact img {
+        width: 25vw;
+    }
+
+
+}
+
+@media (max-width: 415px) {
 
     #intro {
-        gap: 5px;
+        gap: 3rem;
     }
 
     .menu {
