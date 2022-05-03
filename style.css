@@ -9,6 +9,7 @@
 }
 
 body {
+    overflow-x: hidden;
     background: #171717;
 }
 
@@ -77,13 +78,12 @@ nav ul li a:hover {
 
 
 #intro {
-    height: 93vh;
+    height: 100vh;
     display: flex;
     align-items: center;
-    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 80px;
+    gap: 3rem;
 }
 
 .container-name {
@@ -184,6 +184,7 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
     margin: 10px 1rem;
+    cursor: pointer;
 }
 
 
@@ -264,7 +265,7 @@ nav ul li a:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .itens-contact li  {
@@ -302,11 +303,24 @@ footer {
     color: #171717;
 }
 
+@media (max-width: 750px) {
+    
+    #intro {
+        align-content: center;
+        gap: 5rem;
+    }
 
-@media (max-width: 414px) {
+    .img-contact img {
+        width: 25vw;
+    }
+
+
+}
+
+@media (max-width: 415px) {
 
     #intro {
-        gap: 5px;
+        gap: 3rem;
     }
 
     .menu {
