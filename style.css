@@ -174,7 +174,7 @@ nav ul li a:hover {
     flex-wrap: wrap;
 }
 
-.html, .css, .js {
+.html, .css, .js, .react, .git {
     background: #393939;
     width: 80px;
     height: 110px;
