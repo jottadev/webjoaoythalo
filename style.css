@@ -216,7 +216,7 @@ nav ul li a:hover {
     max-width: 900px;
 }
 
-.container-pro-box {
+.container_projetos {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -224,7 +224,7 @@ nav ul li a:hover {
     flex-wrap: wrap;
 }
 
-.pro-box {
+.box_projetos{
     background: #393939;
     width: 27vw;
     max-width: 350px;
@@ -234,6 +234,19 @@ nav ul li a:hover {
     transition: .2s ease-in;
     cursor: pointer;
 }
+
+.projeto-codar img {
+    width: 350px;
+    height: 180px;
+    border-radius: 5px;
+}
+
+.projeto-codar img:hover {
+    transition: .2s ease-in-out;
+    opacity: .8;
+}
+
+
 
 .pro-box:hover {
     background: #636363;
