@@ -236,8 +236,9 @@ nav ul li a:hover {
 }
 
 .projeto-codar img {
-    width: 350px;
-    height: 180px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 5px;
 }
 
